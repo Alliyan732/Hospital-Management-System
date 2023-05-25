@@ -7,7 +7,6 @@
     @@|                                                                      |@@
     @@|                                                                      |@@
     @@|                   SUBMITTED BY: AALLIYAN WAHEED ALVI                 |@@
-    @@|                   SUBMITTED TO: DR. INAYAT-UR-REHMAN                 |@@
     @@|                                                                      |@@
     @@|                                                                      |@@
     @@|      PROJECT NAME:                                                   |@@
@@ -24,7 +23,8 @@
 
 # include <iostream>
 #include<climits>       // dijkstra's Algo...
-# include <conio.h>      
+# include <conio.h>  
+#include <string>    
 using namespace std;
 
 
@@ -293,32 +293,6 @@ int main(){
                     break;
         
                 default:
-                    // if(p_choice==0){
-                    //         cout<<"\n\n\t\t\t\t\t@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n";
-                    // cout<<"\t\t\t\t\t@@ ______________________________________________________________________ @@\n";
-                    // cout<<"\t\t\t\t\t@@|                            		                                 |@@\n";
-                    // cout<<"\t\t\t\t\t@@|                               		                         |@@\n";
-                    // cout<<"\t\t\t\t\t@@|                               		                         |@@\n";
-                    // cout<<"\t\t\t\t\t@@|                                           	                         |@@\n";
-                    // cout<<"\t\t\t\t\t@@|                                                                      |@@\n";
-                    // cout<<"\t\t\t\t\t@@|                                                                      |@@\n";
-                    // cout<<"\t\t\t\t\t@@|                          THANKS FOR USING OUR                        |@@\n";
-                    // cout<<"\t\t\t\t\t@@|                                                                      |@@\n";
-                    // cout<<"\t\t\t\t\t@@|                       HOSPITAL MANAGEMENT SYSTEM                     |@@\n";
-                    // cout<<"\t\t\t\t\t@@|                                                                      |@@\n";
-                    // cout<<"\t\t\t\t\t@@|                                                                      |@@\n";
-                    // cout<<"\t\t\t\t\t@@|                                                                      |@@\n";
-                    // cout<<"\t\t\t\t\t@@|                                                                      |@@\n";
-                    // cout<<"\t\t\t\t\t@@|                                                                      |@@\n";
-                    // cout<<"\t\t\t\t\t@@|                                     ~Code By Alliyan Waheed Alvi     |@@\n";
-                    // cout<<"\t\t\t\t\t@@|______________________________________________________________________|@@\n";
-                    // cout<<"\t\t\t\t\t@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n\n\n\n\t\t\t\t\t";
-                    
-                    // }
-                    
-                    // else{
-                    //     cout<<"\n\t\t\t\t\t\tInvalid Entry, Please try again...";
-                    // }
             
                     break;
             }
@@ -389,30 +363,6 @@ int main(){
         
             default:
                 
-                // if(d_choice==0){
-                //         cout<<"\n\n\t\t\t\t\t@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n";
-                //     cout<<"\t\t\t\t\t@@ ______________________________________________________________________ @@\n";
-                //     cout<<"\t\t\t\t\t@@|                            		                                 |@@\n";
-                //     cout<<"\t\t\t\t\t@@|                               		                         |@@\n";
-                //     cout<<"\t\t\t\t\t@@|                               		                         |@@\n";
-                //     cout<<"\t\t\t\t\t@@|                                           	                         |@@\n";
-                //     cout<<"\t\t\t\t\t@@|                                                                      |@@\n";
-                //     cout<<"\t\t\t\t\t@@|                                                                      |@@\n";
-                //     cout<<"\t\t\t\t\t@@|                          THANKS FOR USING OUR                        |@@\n";
-                //     cout<<"\t\t\t\t\t@@|                                                                      |@@\n";
-                //     cout<<"\t\t\t\t\t@@|                       HOSPITAL MANAGEMENT SYSTEM                     |@@\n";
-                //     cout<<"\t\t\t\t\t@@|                                                                      |@@\n";
-                //     cout<<"\t\t\t\t\t@@|                                                                      |@@\n";
-                //     cout<<"\t\t\t\t\t@@|                                                                      |@@\n";
-                //     cout<<"\t\t\t\t\t@@|                                                                      |@@\n";
-                //     cout<<"\t\t\t\t\t@@|                                                                      |@@\n";
-                //     cout<<"\t\t\t\t\t@@|                                     ~Code By Alliyan Waheed Alvi     |@@\n";
-                //     cout<<"\t\t\t\t\t@@|______________________________________________________________________|@@\n";
-                //     cout<<"\t\t\t\t\t@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n\n\n\n\t\t\t\t\t";
-                // }
-                // else{
-                //     cout<<"\n\t\t\t\t\t\tInvalid Entry, Please try again...";
-                // }
                 break;            
         
         }
@@ -604,44 +554,6 @@ void traverse_patients_list(patients* root)
     traverse_patients_list(root->right);
 }
 
-// void pre_order(stu* root)
-// {
-//     if (!root) {
-// 		return;
-// 	}
-
-//     cout<<"\nID Number   :    "<<root->id;
-//     cout<<"\nName        :    "<<root->name;
-//     cout<<"\nSex         :    "<<root->sex;
-//     cout<<"\nAge         :    "<<root->age;
-//     cout<<"\nBlood group :    "<<root->blood_group;
-//     cout<<"\nContact Num :    "<<root->contact_num;
-//     cout<<"\nAddress     :    "<<root->adderess;
-//     cout<<"\nEarlier major Disease: "<<root->any_major_disease_earlier;	
-
-// 	pre_order(root->left);
-// 	pre_order(root->right);
-// }
-
-// void post_order(stu* root)
-// {
-//     if (!root) {
-// 		return;
-// 	}
-// 	post_order(root->left);
-// 	post_order(root->right);
-
-//     cout<<"\nID Number   :    "<<root->id;
-//     cout<<"\nName        :    "<<root->name;
-//     cout<<"\nSex         :    "<<root->sex;
-//     cout<<"\nAge         :    "<<root->age;
-//     cout<<"\nBlood group :    "<<root->blood_group;
-//     cout<<"\nContact Num :    "<<root->contact_num;
-//     cout<<"\nAddress     :    "<<root->adderess;
-//     cout<<"\nEarlier major Disease: "<<root->any_major_disease_earlier;
-
-// }
-
 
 int total_num_of_patients(patients* root){
     
@@ -652,8 +564,6 @@ int total_num_of_patients(patients* root){
     return(1 + total_num_of_patients(root->left) + total_num_of_patients(root->right));
 	
 }
-
-
 
 
 void search_specific_patient(int key){
@@ -785,21 +695,6 @@ void enqueue(patients* current){
     }
 }
 
-// void dequeue(){
-//     patients *current;
-//     if(front == NULL)
-//         cout<<"\nQueue Underfloaw"<<endl;
-//     else{
-//         current = front;
-//         cout<<"\n<------------------------>";
-//         cout<<"\nCalling patient: ";
-//         cout<<"\n----------------";
-//         cout<<"\nPatient ID: "<<current->p_id;
-//         cout<<"\n<------------------------>"<<endl;
-//         front = front->next;
-//         delete current;
-//     }
-// }
 
 void dlisplay_patients_priority(){
     patients *qp;
@@ -985,43 +880,6 @@ void traverse_doctors_list(doctors* d_root)
     traverse_doctors_list(d_root->d_right);
 }
 
-// void pre_order(stu* root)
-// {
-//     if (!root) {
-// 		return;
-// 	}
-
-//     cout<<"\nID Number   :    "<<root->id;
-//     cout<<"\nName        :    "<<root->name;
-//     cout<<"\nSex         :    "<<root->sex;
-//     cout<<"\nAge         :    "<<root->age;
-//     cout<<"\nBlood group :    "<<root->blood_group;
-//     cout<<"\nContact Num :    "<<root->contact_num;
-//     cout<<"\nAddress     :    "<<root->adderess;
-//     cout<<"\nEarlier major Disease: "<<root->any_major_disease_earlier;	
-
-// 	pre_order(root->left);
-// 	pre_order(root->right);
-// }
-
-// void post_order(stu* root)
-// {
-//     if (!root) {
-// 		return;
-// 	}
-// 	post_order(root->left);
-// 	post_order(root->right);
-
-//     cout<<"\nID Number   :    "<<root->id;
-//     cout<<"\nName        :    "<<root->name;
-//     cout<<"\nSex         :    "<<root->sex;
-//     cout<<"\nAge         :    "<<root->age;
-//     cout<<"\nBlood group :    "<<root->blood_group;l
-//     cout<<"\nContact Num :    "<<root->contact_num;
-//     cout<<"\nAddress     :    "<<root->adderess;
-//     cout<<"\nEarlier major Disease: "<<root->any_major_disease_earlier;
-
-// }
 
 
 int total_num_of_doctors(doctors* d_root){
