@@ -86,6 +86,9 @@ Follow the prompts and input the required information to perform various actions
 
 
 
-## Acknowledgments
+## Contact
 
-The development of this Hospital Management System was inspired by the need for efficient management of healthcare facilities. We extend our gratitude to all the contributors and developers who have made this project possible.
+If you have any questions, suggestions, or feedback, please contact:
+
+- Email: alliyan732@gmail.com
+- LinkedIn: https://www.linkedin.com/in/alliyan-alvi/
